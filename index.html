@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quem sou eu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#quem-sou-eu" onclick="mostrarAba('quem-sou-eu')">Quem sou eu</a></li>
+                <li><a href="#formacao" onclick="mostrarAba('formacao')">Formação</a></li>
+                <li><a href="#portfolio" onclick="mostrarAba('portfolio')">Portfolio</a></li>
+                <li><a href="#contato" onclick="mostrarAba('contato')">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="quem-sou-eu" class="aba">
+            <img id="imagem-pessoal" src="image/image1.png" alt="Imagem Pessoal" class="imagem-inicial">
+            <h2>Quem sou eu</h2>
+            <p>Me chamo Bruno, moro com a minha mãe e minha irmã mais nova, sou muito sortudo de tê-las perto de mim.
+                Sou apaixonado por tecnologia e sempre tive o sonho de aprender e trabalhar nesse ramo. Gosto muito de
+                ler livros, conversar com amigos e dar muitas risadas assistindo televisão.</p>
+        </section>
+
+        <section id="formacao" class="aba">
+            <h2>Formação</h2>
+            <p>Estudante de Análise e desenvolvimento de sistemas. Inglês e espanhol básico.</p>
+        </section>
+
+        <section id="portfolio" class="aba">
+            <h2>Acesse meu outro trabalho abaixo:</h2>
+            <p><a href="https://brunosilvatech.github.io/meu-portfolio/" target="_blank">Meu Portfólio</a></p>
+        </section>
+
+        <section id="contato" class="aba">
+            <h2>Contato</h2>
+            <p>Tem interesse em se comunicar comigo? -> Telefone (11) 98081-0946 / Email: bruno.samurai@gmail.com</p>
+            <p>Ou me envie uma mensagem:</p>
+            <form action="#" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br><br>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido para fins educacionais</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

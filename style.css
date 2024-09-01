@@ -1,0 +1,117 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.imagem-inicial {
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    /* Centraliza a imagem horizontalmente */
+    display: block;
+}
+
+/* Estilo do Header e Nav */
+header {
+    background-color: #1E3A8A;
+    color: white;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos das Seções */
+main section {
+    padding: 20px;
+    display: none;
+    /* Inicialmente todas as seções são escondidas */
+}
+
+main section#quem-sou-eu {
+    display: block;
+    /* Exibe apenas a aba "Quem sou eu" inicialmente */
+}
+
+h2 {
+    color: #1E3A8A;
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+a {
+    color: #1E40AF;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo do Formulário */
+form label {
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+form button {
+    background-color: #1E3A8A;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+form button:hover {
+    background-color: #1E40AF;
+}
+
+/* Estilo do Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #1E3A8A;
+    color: white;
+    /* Ajusta o texto do rodapé para branco */
+    position: relative;
+    width: 100%;
+}
